@@ -102,20 +102,21 @@
           <p>*한양 메일로 가입해주시기 바랍니다.</p>
         </div>
         <%= f.input :password, label: '비밀번호', required: false %>
+        <%= f.input :school_id, label: '학교번호', required: false %>
         <%= f.input :password_confirmation, label: '비밀번호 확인', required: false %>
 
-        <div class="dropdown">
-          <label>소속대학</label>
-          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            학교선택
-          </button>
-          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="#">소프트웨어융합대학</a>
-            <a class="dropdown-item" href="#">공학대학</a>
-            <a class="dropdown-item" href="#">경상대학</a>
-            <a class="dropdown-item" href="#">디자인대학</a>
-          </div>
-        </div>
+        <!--<div class="dropdown">-->
+          <!--<label>소속대학</label>-->
+          <!--<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
+            <!--학교선택-->
+          <!--</button>-->
+          <!--<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">-->
+            <!--<a class="dropdown-item" href="#">소프트웨어융합대학</a>-->
+            <!--<a class="dropdown-item" href="#">공학대학</a>-->
+            <!--<a class="dropdown-item" href="#">경상대학</a>-->
+            <!--<a class="dropdown-item" href="#">디자인대학</a>-->
+          <!--</div>-->
+        <!--</div>-->
       </div>
       <div class="form-actions">
         <%= f.button :submit, "Sign up" %>
