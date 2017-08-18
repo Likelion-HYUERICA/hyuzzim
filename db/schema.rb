@@ -46,7 +46,9 @@ ActiveRecord::Schema.define(version: 20170818174453) do
 
   create_table "rooms", force: :cascade do |t|
     t.integer "location_id"
-    t.string "room_name"
+    t.integer "room_number"
+    t.integer "timelist_id"
+    t.boolean "isbooked"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

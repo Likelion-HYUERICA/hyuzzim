@@ -6,7 +6,6 @@ class TimeRoomController < ApplicationController
       @username = current_user.username
       @user_school = School.find_by(id: current_user.school_id).school_name
       @rooms = Room.where(location_id: params[:location_id])
-
     end
   end
 end
