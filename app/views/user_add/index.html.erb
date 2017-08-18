@@ -1,0 +1,206 @@
+<nav class="navigation">
+  <div class="logo">
+    <a class="navbar-brand" href="#"><%= image_tag '찜_로고.png', class: 'main-logo-image img-fluid', width: '80px'%></a>
+  </div>
+  <div class="page-header">
+    <div class="page-one">
+      <div class="page-info">
+        <p>이용자 추가</p>
+      </div>
+      <div class="page-location">
+        <p>pbl예약하기 > 날짜 / 라운지 > 방 / 시간 > 이용자 추가</p>
+      </div>
+    </div>
+    <div class="page-two">
+      <div class="student-school">
+        <p>소프트웨어융합대학</p>
+      </div>
+      <div class="student-name">
+        <p>윤지우</p>
+      </div>
+      <div class="logout-btn">
+        <p>로그아웃</p>
+      </div>
+    </div>
+  </div>
+</nav>
+<!-- Main Content -->
+<div class="main">
+  <div class="side-bar"> 
+    <div class="side-menu-header">
+      <%= image_tag '_예약하기.png', class: 'list-logo'%>
+    </div>
+    <div class="side-menu-list">
+      <ul>
+        <li>1. 날짜 / 라운지</li>
+        <li>2. 방 / 시간</li>
+        <li>3. 이용자 추가</li>
+      </ul>
+    </div>
+    <div class="side-menu-header">
+      <%= image_tag '_예약리스트.png', class: 'list-logo'%>
+    </div>
+    <!-- <div class="side-menu-list">
+      <ul>
+        <li>최근 이용 목록</li>
+        <li>내가 한 예약리스트</li>
+      </ul>
+    </div> -->
+    <div class="side-menu-header">
+      <%= image_tag '_내정보.png', class: 'list-logo'%>
+    </div>
+    <!-- <div class="side-menu-list">
+      <ul>
+        <li>내 정보</li>
+        <li>건의사항</li>
+        <li>신고 / 패널티</li>
+      </ul>
+    </div> -->
+  </div>
+  <div class="main-content"> 
+      <div class="search-wrapper">
+        <div class="search-header">
+          <p>유저검색</p>
+        </div>
+        <hr>
+        <div class="search-asteric">
+          <p>* 함께 이용하실 이용자를 추가해주세요.</p>
+        </div>
+        <form action="" class="search-bar">
+            <input type="text">
+            <%= image_tag '돋보기아이콘.png', class: 'search-logo'%>
+        </form>
+        <div class="recent-header">
+          <p>최근 그룹 목록</p>
+        </div>
+        <hr>
+        <div class="search-asteric">
+          <p>* 함께 이용하실 이용자를 추가해주세요.</p>
+        </div>
+        <div class="recent-box">
+          <div class="school-btn"><p>소융</p></div>
+          <span>윤지우(나)</span>
+          <div class="school-btn"><p>경상</p></div>
+          <span>박경덕</span>
+          <div class="school-btn"><p>디자인</p></div>
+          <span>김재현</span>
+          <div class="cancel-btn">
+            
+          </div>
+        </div>
+        <div class="recent-box">
+          <div class="school-btn"><p>소융</p></div>
+          <span>윤지우(나)</span>
+          <div class="school-btn"><p>경상</p></div>
+          <span>박경덕</span>
+          <div class="school-btn"><p>공학</p></div>
+          <span>민동준</span>
+          <div class="cancel-btn">
+            
+          </div>
+        </div>
+        <div class="recent-box">
+          <div class="school-btn"><p>소융</p></div>
+          <span>윤지우(나)</span>
+          <div class="school-btn"><p>공학</p></div>
+          <span>이효빈</span>
+          <div class="school-btn"><p>디자인</p></div>
+          <span>김재현</span>
+          <div class="cancel-btn">
+            
+          </div>
+        </div>
+        <div class="recent-box">
+          <div class="school-btn">
+            <p>소융</p>
+          </div>
+          <span>윤지우(나)</span>
+          <div class="school-btn"><p>경상</p></div>
+          <span>박경덕</span>
+          <div class="school-btn"><p>디자인</p></div>
+          <span>김재현</span>
+          <div class="school-btn"><p>공학</p></div>
+          <span>이효빈</span>
+          <div class="school-btn"><p>공학</p></div>
+          <span>민동준</span>
+          <div class="cancel-btn">
+            
+          </div>
+        </div>
+      </div>
+      <div class="reservation-wrapper">
+        <div class="reservation-header">
+          <p>예약내역</p>
+        </div>
+        <hr>
+        <div class="reservation-asteric">
+          <p>* 선택하신 예약내역을 확인해주세요.</p>
+        </div>
+        <div class="reservation-content">
+          <div class="reservation-location">
+          	<p>장소</p>
+          	<hr>
+          	<p class="specific">경상대 PBL 라운지</p>
+          </div>
+          <div class="reservation-date">
+          	<p>예약 날짜</p>
+          	<hr>
+          	<p class="specific">2017-05-11-금</p>
+          </div>
+          <div class="reservation-time">
+          	<p>방 / 이용시간</p>
+          	<hr>
+          	<p class="specific">205방 / 17:00 ~ 18:00</p>
+          </div>
+          <div class="added-users">
+          	<p>추가된 이용자</p>
+          	<hr>
+          	<div class="users">
+          		<div class="user">
+          			<div class="user-btn">
+          				<p>소융</p>
+          			</div>
+          			<p>윤지우</p>
+          			<span>x</span>
+          		</div>
+          		<div class="user">
+          			<div class="user-btn">
+          				<p>공학</p>
+          			</div>
+          			<p>민동준</p>
+          			<span>x</span>
+          		</div>
+          		<div class="user">
+          			<div class="user-btn">
+          				<p>공학</p>
+          			</div>
+          			<p>이효빈</p>
+          			<span>x</span>
+          		</div>
+          		<div class="user">
+          			<div class="user-btn">
+          				<p>경상</p>
+          			</div>
+          			<p>박경덕</p>
+          			<span>x</span>
+          		</div>
+          		<div class="user">
+          			<div class="user-btn">
+          				<p>디자인</p>
+          			</div>
+          			<p>김재현</p>
+          			<span>x</span>
+          		</div>
+          	</div>
+          </div>
+          <div class="caution">
+          	<p>예약시 주의사항</p>
+          	<hr>
+          	<p class="specific">1. 예약시간을 준수 합시다.</p>
+          	<p class="specific">2. 예약후 10분간은 취소, 변경이 불가합니다.</p>
+          	<p class="specific">**예를 들어 경상대 PBL 라운지는 시험기간 24시간 개방합니다.</p>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>

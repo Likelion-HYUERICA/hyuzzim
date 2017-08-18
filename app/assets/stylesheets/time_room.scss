@@ -153,13 +153,14 @@ body {
     width: 100%;
     display: flex;
     justify-content: flex-start;
+    margin-bottom: 10px;
+
   }
   .side-menu-list {
     width: 100%;
     padding-left: 50px;
     display: flex;
     justify-content: flex-start;
-    margin-bottom: 30px;
   }
   .side-menu-list > ul {
     padding-top: 5px;

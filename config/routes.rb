@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'user_add/index'
+
   get 'time_room/index'
   get 'time_school/index'
   # root '/users/sign_in'
