@@ -14,10 +14,10 @@
     </div>
     <div class="page-two">
       <div class="student-school">
-        <p>소프트웨어융합대학</p>
+        <p><%=@user_school%></p>
       </div>
       <div class="student-name">
-        <p>윤지우</p>
+        <p><%=@username%></p>
       </div>
       <div class="logout-btn">
         <%= link_to '로그아웃', destroy_user_session_path, :method => :delete %>
@@ -76,34 +76,34 @@
         <div class="lounge-row">
           <div class="lounge-box-1">
             <div class="content">
-              <p>1 공학관</p>
+              <p><%=@locations[0].location_name%></p>
             </div>
           </div>
           <div class="lounge-box-2">
             <div class="content">
-              <p>2 공학관</p>
+              <p><%=@locations[1].location_name%></p>
             </div>
           </div>
           <div class="lounge-box-3">
             <div class="content">
-              <p>경상대</p>
+              <p><%=@locations[2].location_name%></p>
             </div>
           </div>
         </div>
         <div class="lounge-row">
           <div class="lounge-box-4">
             <div class="content">
-              <p>국문대</p>
+              <p><%=@locations[3].location_name%></p>
             </div>
           </div>
           <div class="lounge-box-5">
             <div class="content">
-              <p>언정대</p>
+              <p><%=@locations[4].location_name%></p>
             </div>
           </div>
           <div class="lounge-box-6">
             <div class="content">
-              <p>창업보육센터</p>
+              <p><%=@locations[5].location_name%></p>
             </div>
           </div>
         </div>

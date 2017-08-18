@@ -12,5 +12,15 @@ School.create([
                   {school_name: '경상대학'},
                   {school_name: '국제문화대학'},
                   {school_name: '예체능대학'},
-                  {school_name: '언론정보대학'}
+                  {school_name: '언론정보대학'},
+                  {school_name: '창업보육센터'}
               ])
+Location.create([
+					{school_id: 1, location_name: '1공학관'},
+					{school_id: 1, location_name: '2공학관'},
+					{school_id: 4, location_name: 'PBL라운지'},
+					{school_id: 5, location_name: 'PBL라운지'},
+					{school_id: 7, location_name: 'PBL라운지'},
+					{school_id: 8, location_name: '창업보육센터'}
+				])
+# User.create({username: '이두희', school_id: 2, email: 'lee@hanyang.ac.kr', encrypted_password: '$2a$11$3ufxoArJFl.fwz8fXFaLpu8W8AZdW7CNhG.lCs/PPVFiHqN.ywCua'})
