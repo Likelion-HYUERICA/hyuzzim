@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'time_room/index'
+
   get 'time_school/index'
 
   devise_for :users
