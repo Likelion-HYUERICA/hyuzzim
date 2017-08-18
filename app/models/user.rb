@@ -1,6 +1,6 @@
 class User < ApplicationRecord
   has_many :groups
-  belongs_to :school
+  belongs_to :school, optional: true
   rolify
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable and :omniauthable
