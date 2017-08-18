@@ -20,7 +20,7 @@
         <p>윤지우</p>
       </div>
       <div class="logout-btn">
-        <p>로그아웃</p>
+        <%= link_to '로그아웃', destroy_user_session_path, :method => :delete %>
       </div>
     </div>
   </div>
