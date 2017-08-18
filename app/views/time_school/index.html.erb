@@ -63,10 +63,11 @@
       <p>날짜</p>
       <hr>
       <p class="cautious">* 이용하실 날짜를 선택해주세요.</p>
-      <form class="form-inline" action="#">
+      <!-- <form class="form-inline" action="#">
         <input class="form-control" type="date" name="date">
         <input class="form-control submit-btn" type="submit" value="확인">
-      </form>
+      </form> -->
+      <%= Date.today %>
     </div>
     <div class="building">
       <p>학교 건물</p>
@@ -74,34 +75,34 @@
       <p class="cautious">* 이용하실 단과대 라운지를 선택해주세요.</p>
       <div class="school-picker">
         <div class="lounge-row">
-          <div class="lounge-box-1">
+          <div class="lounge-box-1" onclick="location.href='/time_room/<%=@locations[0].id%>'">
             <div class="content">
               <p><%=@locations[0].location_name%></p>
             </div>
           </div>
-          <div class="lounge-box-2">
+          <div class="lounge-box-2" onclick="location.href='/time_room/<%=@locations[1].id%>'">
             <div class="content">
               <p><%=@locations[1].location_name%></p>
             </div>
           </div>
-          <div class="lounge-box-3">
+          <div class="lounge-box-3" onclick="location.href='/time_room/<%=@locations[2].id%>'">
             <div class="content">
               <p><%=@locations[2].location_name%></p>
             </div>
           </div>
         </div>
         <div class="lounge-row">
-          <div class="lounge-box-4">
+          <div class="lounge-box-4" onclick="location.href='/time_room/<%=@locations[3].id%>'">
             <div class="content">
               <p><%=@locations[3].location_name%></p>
             </div>
           </div>
-          <div class="lounge-box-5">
+          <div class="lounge-box-5" onclick="location.href='/time_room/<%=@locations[4].id%>'">
             <div class="content">
               <p><%=@locations[4].location_name%></p>
             </div>
           </div>
-          <div class="lounge-box-6">
+          <div class="lounge-box-6" onclick="location.href='/time_room/<%=@locations[5].id%>'">
             <div class="content">
               <p><%=@locations[5].location_name%></p>
             </div>
