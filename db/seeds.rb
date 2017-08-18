@@ -23,4 +23,31 @@ Location.create([
 					{school_id: 7, location_name: 'PBL라운지'},
 					{school_id: 8, location_name: '창업보육센터'}
 				])
+Room.create([
+				{location_id: 1, room_name: '토론실 1실'},
+				{location_id: 1, room_name: '토론실 2실'},
+				{location_id: 1, room_name: '토론실 3실'},
+				{location_id: 1, room_name: '토론실 4실'},
+				{location_id: 1, room_name: '토론실 5실'},	
+				{location_id: 2, room_name: '토론실 1실'},
+				{location_id: 2, room_name: '토론실 2실'},
+				{location_id: 2, room_name: '토론실 3실'},
+				{location_id: 2, room_name: '토론실 4실'},
+				{location_id: 2, room_name: '토론실 5실'},	
+				{location_id: 3, room_name: '토론실 1실'},
+				{location_id: 3, room_name: '토론실 2실'},
+				{location_id: 3, room_name: '토론실 3실'},
+				{location_id: 3, room_name: '토론실 4실'},
+				{location_id: 3, room_name: '토론실 5실'},	
+				{location_id: 4, room_name: '토론실 1실'},
+				{location_id: 4, room_name: '토론실 2실'},
+				{location_id: 4, room_name: '토론실 3실'},
+				{location_id: 4, room_name: '토론실 4실'},
+				{location_id: 4, room_name: '토론실 5실'},	
+				{location_id: 5, room_name: '토론실 1실'},
+				{location_id: 5, room_name: '토론실 2실'},
+				{location_id: 5, room_name: '토론실 3실'},
+				{location_id: 5, room_name: '토론실 4실'},
+				{location_id: 5, room_name: '토론실 5실'}
+			])
 # User.create({username: '이두희', school_id: 2, email: 'lee@hanyang.ac.kr', encrypted_password: '$2a$11$3ufxoArJFl.fwz8fXFaLpu8W8AZdW7CNhG.lCs/PPVFiHqN.ywCua'})

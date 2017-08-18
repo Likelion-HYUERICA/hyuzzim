@@ -5,7 +5,8 @@ class TimeRoomController < ApplicationController
     elsif
       @username = current_user.username
       @user_school = School.find_by(id: current_user.school_id).school_name
-      @location_id = params[:location_id]
+      @rooms = Room.where(location_id: params[:location_id])
+
     end
   end
 end
